@@ -97,7 +97,8 @@ With the updated configurations, restart the Nginx container:
 
 ```bash
 docker-compose down
-docker-compose up -d
+docker-compose up -d nginx
+docker-compose up -d certbot
 ```
 
 ### 6. Set Up Certificate Renewal
